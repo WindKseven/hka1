@@ -24,7 +24,7 @@ B = SAPXEP(ftA, len(ftA))
 
 """Max_2_ele && Min_2_ele"""
 print("\nPhan tu lon thu 2 la: ", B[-2])
-print("Phan tu lon thu 2 la: ", B[1])    
+print("Phan tu nho thu 2 la: ", B[1])    
 
 "So nguyen to hon kem nhau 2dv"
 def snt(numb):
