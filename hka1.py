@@ -57,7 +57,7 @@ def csc(A):
 
 """Cap so nhan"""
 def csn(A):
-    q = A[1] - A[0]
+    q = A[1] / A[0]
     for i in range(n-1):
         if A[i+1] / A[i] != q:
             return False
